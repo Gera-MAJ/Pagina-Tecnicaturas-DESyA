@@ -129,9 +129,21 @@
         text-align: center;
         transition: all 500ms;
         padding-top: 15px;
-        height: 55px;
+        height: 40px;
     }
-   
+    #sociales li {
+        height: 60px;
+        padding: 0px;
+        
+    }
+    #deportivas li {
+        height: 60px;
+        padding: 0px;
+    }
+    #tecnologia li {
+        height: 60px;
+        padding: 0px;
+    }
     .sub_menu ul li a {
         position: absolute;
         width: 280px;
@@ -293,7 +305,7 @@
 
     #titulo {
         font-size: 25px;
-        margin-left: 92px;
+        margin-left: 100px;
         margin-top: 30px;
         margin-bottom: 20px;
         margin-right: 50px;
