@@ -7,6 +7,7 @@ document.getElementById('boton06').addEventListener('click', btnSociales)
 document.getElementById('boton07').addEventListener('click', btnTecnologia)
 document.getElementById('boton08').addEventListener('click', btnArtisticas)
 document.getElementById('boton09').addEventListener('click', btnEspeciales)
+document.getElementById('boton10').addEventListener('click', btnEducacion)
 
 
 const deportes = document.getElementById('cont_deportivas')
@@ -18,6 +19,7 @@ const sociales = document.getElementById('cont_sociales')
 const tecnologia = document.getElementById('cont_tecnologia')
 const artisticas = document.getElementById('cont_artisticas')
 const especiales = document.getElementById('cont_especiales')
+const educacion = document.getElementById('cont_educacion')
 const botonDep = document.getElementById('boton01')
 const botonExac = document.getElementById('boton02')
 const botonIdi = document.getElementById('boton03')
@@ -27,6 +29,20 @@ const botonSoc = document.getElementById('boton06')
 const botonTec = document.getElementById('boton07')
 const botonArt = document.getElementById('boton08')
 const botonEsp = document.getElementById('boton09')
+const botonEdu = document.getElementById('boton10')
+
+function btnEducacion(){
+
+    if (educacion.style.display == "none" || educacion.style.display==''){
+        educacion.style.display = "block"
+        botonEdu.style.textAlign = "left"
+        botonEdu.style.color = '#fbf8f8'
+    }else{
+        educacion.style.display = "none"
+        botonEdu.style.textAlign = "center"
+        botonEdu.style.color = '#061e24'
+    }   
+}
 
 function btnArtisticas(){
 
